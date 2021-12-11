@@ -6,7 +6,6 @@ echo "A small google dorking/OSINT gathering script updated from goohak by moo"
 
 TARGET="$1"
 BROWSER="firefox"
-
 TIME="sleep 7"
 
 $TIME

@@ -78,7 +78,7 @@ $TIME
 echo "opening LinkedIn employees list"
 $BROWSER https://www.google.com/search?q=site:linkedin.com+employees+$TARGET 2> /dev/null
 
-$TIME
+#$TIME
 #echo "opening UVRX social media search. Please enter the target name"
 #$BROWSER http://www.uvrx.com 2> /dev/null
 

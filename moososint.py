@@ -3,6 +3,7 @@ import time
 import socket
 
 shodanWeb = "https://www.shodan.io/search?query=hostname%3A"
+censysWeb = "https://www.censys.io/ipv4?q="
 
 # Prints the header
 with open('moosint.txt', 'r') as f:
@@ -26,6 +27,10 @@ print("opening shodan")
 webbrowser.open_new(shodanWeb + TARGET)
 
 time.sleep(3)
+
+
+print("opening censys")
+webbrowser.open_new(censysWeb + TARGET)
 
 # TODO - look at moosin.sh to continue adding more services to this script
 

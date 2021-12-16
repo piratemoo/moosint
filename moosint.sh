@@ -50,7 +50,7 @@ function osintLookup()
 			$BROWSER http://viewdns.info/reversewhois/?q=$address
 			echo "opening wayback machine archive
 			$BROWSER https://web.archive.org/web/*/$address
-		}
+	}
 
 function googleDork()
 	{

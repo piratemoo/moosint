@@ -41,9 +41,9 @@ elif choice == menu[4]:
     print("You have picked mastodon")
     
     #Mastodon keys and get requests
-    mastodon_key="lI-XfODzoODJyw6uPZWTp6aHIK53ls65BnUSVROzvlY"
-    mastodon_secret="0AJ0Idc2KCYjPI4qfzdSuND5HY_Qg7gkPLPbdlXY3Js"
-    mastodon_token="KBW7opum_EO8tPrAmVf8isImjvJ7Odrm37OGrXSbagA"
+    mastodon_key="xx"
+    mastodon_secret="xx"
+    mastodon_token="xx"
     
     response = requests.get(f"https://mastodon.example/api/v1/statuses/:id")
     response.raise_for_status()
